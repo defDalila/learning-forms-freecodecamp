@@ -27,8 +27,8 @@
     
     <fieldset>
       <legend>Escolha o Tipo de Conta (obrigatório)</legend>
-      <label for="personal-account"><input checked type="radio" id="personal-account" name="account-type"> Personal</label>
-      <label for="business-account"><input type="radio" id="business-account" name="account-type"> Business</label>
+      <label for="personal-account"><input checked type="radio" id="personal-account" name="account-type" class="inline"> Personal</label>
+      <label for="business-account"><input type="radio" id="business-account" name="account-type" class="inline"> Business</label>
     </fieldset>
     
     <fieldset>
@@ -43,15 +43,14 @@
         <option value="4">Outros</option>
       </select></label>
       <label for="bio"> Forneça uma biografia:</label>
-      <textarea name="bio" placeholder="Escreva uma breve biografia..." id="bio" name="bio" 	rows="4" cols="50"></textarea>
-      
+      <textarea name="bio" placeholder="Escreva uma breve biografia..." id="bio" name="bio" 	rows="4" cols="50"></textarea></label>
     </fieldset>
     
 
       <label for="terms-and-conditions">
-        <input type="checkbox" id="terms-and-conditions" name="terms-and-conditions" required>
-          Eu li e concordo com os <a href="https://www.freecodecamp.org/news/terms-of-service/">termos e condições</a>
-      </label>
+        <input type="checkbox" id="terms-and-conditions" name="terms-and-conditions" class="inline" required>
+          Eu li e concordo com os <a href="https://www.freecodecamp.org/news/terms-of-service/" target="_blank">termos e condições</a>
+      </label><br>
 
     
     <input type="submit" value="Enviar">

@@ -470,3 +470,192 @@ Ao atribuir `name="account-type"` aos dois inputs de rádio, o formulário agora
 Agora, o formulário está corretamente estruturado para que os dados enviados sejam bem identificados no servidor! 🚀
 
 </details>
+
+<br>
+
+:ballot_box_with_check: Durante o desenvolvimento, as bordas padrão dos `<fieldset>` ajudam a visualizar a organização do formulário, mas podem deixar os elementos muito separados. Para um design mais compacto e harmonioso, podemos ajustar o estilo das bordas e espaçamentos com CSS.
+
+<details>
+  <summary><font color='#50FA7B'><strong>Exibir Exemplo de Código</strong></font></summary>
+
+### :star: <font color='#BD93F9'><strong>Exemplo</strong></font> :star:
+
+```css
+fieldset {
+  border: 1px solid #ccc; /* Borda mais sutil */
+  padding: 10px;
+  margin-bottom: 15px; /* Reduz a separação entre os fieldsets */
+  border-radius: 5px; /* Bordas arredondadas para um visual mais suave */
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+```
+
+- Melhorias:
+1. **Borda mais sutil (`border: 1px solid #ccc;`)**: Mantém a visibilidade sem ser intrusiva.
+2. **Redução do espaçamento (`margin-bottom: 15px;`)**: Diminui a separação entre os `<fieldset>`.
+3. **Bordas arredondadas (`border-radius: 5px;`)**: Deixa o design mais moderno e suave.
+4. **Estilização do `<legend>`**: Realce no título de cada seção do formulário.
+
+Caso prefira remover completamente as bordas, use:
+
+```css
+fieldset {
+  border: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+```
+
+Isso manterá os agrupamentos organizados sem separar demais os elementos. 🚀
+
+</details>
+
+<br>
+
+:ballot_box_with_check: Você pode usar o seletor `:last-of-type` para estilizar especificamente o último `<fieldset>` e ajustá-lo para que se integre melhor ao design do formulário.
+
+<details>
+  <summary><font color='#50FA7B'><strong>Exibir Exemplo de Código</strong></font></summary>
+
+### :star: <font color='#BD93F9'><strong>Exemplo</strong></font> :star:
+
+```css
+fieldset:last-of-type {
+  border: none; /* Remove a borda do último fieldset */
+  padding-bottom: 0; /* Ajusta o espaçamento inferior */
+  margin-bottom: 0; /* Remove a margem extra abaixo */
+}
+```
+
+### Explicação:
+1. **`fieldset:last-of-type`** → Seleciona apenas o último `<fieldset>` do formulário.
+2. **`border: none;`** → Remove a borda do último `<fieldset>`, diferenciando-o dos demais.
+3. **`padding-bottom: 0;` e `margin-bottom: 0;`** → Ajusta o espaçamento inferior para evitar um espaço extra indesejado.
+
+Isso ajuda a manter o formulário mais uniforme, especialmente se o último `<fieldset>` contiver apenas um botão de envio. 🚀
+
+</details>
+
+<br>
+
+:ballot_box_with_check: Para garantir que os rótulos (`label`) apareçam acima dos elementos do formulário e que os campos ocupem toda a largura do contêiner pai, podemos usar CSS para estilizar os elementos `<input>`, `<textarea>`, e `<select>`.  
+
+<details>
+  <summary><font color='#50FA7B'><strong>Exibir Exemplo de Código</strong></font></summary>
+
+### :star: <font color='#BD93F9'><strong>Exemplo</strong></font> :star:
+
+
+```css
+/* Faz com que os labels apareçam acima dos inputs */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px; /* Espaçamento entre o label e o campo */
+}
+
+/* Faz com que os campos ocupem toda a largura disponível */
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px; /* Espaçamento entre os campos */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Evita que padding aumente a largura total */
+}
+
+/* Ajuste específico para textarea */
+textarea {
+  resize: vertical; /* Permite redimensionamento vertical */
+}
+```
+
+### O que foi melhorado:
+1. **`display: block;` nos `<label>`** → Agora os rótulos aparecem acima dos campos.
+2. **`width: 100%;` nos `<input>`, `<textarea>` e `<select>`** → Todos os elementos ocupam a largura total do contêiner.
+3. **Adicionado `padding` e `border-radius`** → Para um design mais moderno e confortável.
+4. **`box-sizing: border-box;`** → Garante que `padding` não aumente a largura total do campo.
+5. **`resize: vertical;` no `<textarea>`** → Permite redimensionamento vertical sem afetar a largura.
+
+</details>
+
+<br>
+
+:ballot_box_with_check: Para estilizar o botão de envio (`submit`), podemos usar um **seletor de atributo**, que permite selecionar elementos com base em seus atributos.
+
+<details>
+  <summary><font color='#50FA7B'><strong>Exibir Exemplo de Código</strong></font></summary>
+
+### :star: <font color='#BD93F9'><strong>Exemplo</strong></font> :star:
+
+```css
+/* Seleciona especificamente o botão de envio */
+input[type="submit"] {
+  background-color: #007bff; /* Cor de fundo azul */
+  color: white; /* Texto branco */
+  font-size: 1rem;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Faz o botão ocupar toda a largura do formulário */
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Efeito ao passar o mouse */
+input[type="submit"]:hover {
+  background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+}
+```
+
+### Explicação:
+1. **Seletor `input[type="submit"]`** → Aplica o estilo apenas ao botão de envio.
+2. **`background-color: #007bff;`** → Define um fundo azul moderno.
+3. **`color: white;`** → Deixa o texto legível.
+4. **`border-radius: 5px;`** → Deixa as bordas arredondadas para um visual suave.
+5. **`cursor: pointer;`** → Indica que o botão é clicável.
+6. **`width: 100%;`** → O botão ocupa toda a largura do formulário.
+7. **Efeito `hover`** → Ao passar o mouse, o botão escurece, criando um efeito interativo.
+
+</details>
+
+<br>
+
+:ballot_box_with_check: Para garantir que o campo de upload (`<input type="file">`) tenha um tamanho mais consistente com os outros campos do formulário, podemos aplicar estilos personalizados e remover as configurações padrão dos navegadores.
+
+<details>
+  <summary><font color='#50FA7B'><strong>Exibir Exemplo de Código</strong></font></summary>
+
+### :star: <font color='#BD93F9'><strong>Exemplo</strong></font> :star:
+
+```css
+/* Normaliza o tamanho do input file para combinar com os outros campos */
+input[type="file"] {
+  width: 100%;
+  padding: 8px; /* Igual aos outros inputs */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/* Ajuste para melhorar a aparência ao passar o mouse */
+input[type="file"]:hover {
+  border-color: #007bff;
+}
+```
+
+#### O que isso faz?
+1. **`width: 100%`** → Garante que o campo ocupe a largura total do formulário.
+2. **`padding: 8px`** → Ajusta o preenchimento para ser igual ao dos outros inputs.
+3. **`border: 1px solid #ccc;`** → Mantém um estilo uniforme.
+4. **`border-radius: 4px;`** → Bordas arredondadas para um visual mais suave.
+5. **`cursor: pointer;`** → Indica que o campo pode ser clicado.
+6. **`box-sizing: border-box;`** → Evita que o `padding` afete a largura total.
+
+</details>
