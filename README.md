@@ -1,4 +1,4 @@
-# <p align="center"><font color='hotpink'><strong>Learn HTML Forms by Building a Registration Form</strong></font></p>
+# <p align="center"><font color='#FF79C6'><strong>Learn HTML Forms by Building a Registration Form</strong></font></p>
 
 <p align="center"> <i>Módulo de treinamento para a certificação <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/"><em>Responsive Web Design Certification</em></a> da plataforma FreeCodeCamp</i>.
 <p>
@@ -10,7 +10,7 @@
 
 <br>
 
-## :memo: <font color='turquoise'><strong>Notas de Aula</strong></font>
+## :memo: <font color='#8BE9FD'><strong>Notas de Aula</strong></font>
 
 <br>
 
@@ -33,9 +33,9 @@
 
 
 <details>
-  <summary><font color='turquoise'><strong>Exibir Exemplo de Código</strong></font></summary>
+  <summary><font color='#50FA7B'><strong>Exibir Exemplo de Código</strong></font></summary>
 
-### :star: <font color='#a90dec'><strong>Exemplo</strong></font> :star:
+### :star: <font color='#BD93F9'><strong>Exemplo</strong></font> :star:
 
 ```html
 <label for="email">E-mail:</label>
@@ -49,9 +49,9 @@
 
 
 <details>
-  <summary><font color='turquoise'><strong>Exibir Exemplo de Código</strong></font></summary>
+  <summary><font color='#50FA7B'><strong>Exibir Exemplo de Código</strong></font></summary>
 
-### :star: <font color='#a90dec'><strong>Exemplo</strong></font> :star:
+### :star: <font color='#BD93F9'><strong>Exemplo</strong></font> :star:
 
 ```html
 <form>
@@ -79,9 +79,9 @@
 
 
 <details>
-  <summary><font color='turquoise'><strong>Exibir Exemplo de Código</strong></font></summary>
+  <summary><font color='#50FA7B'><strong>Exibir Exemplo de Código</strong></font></summary>
 
-### :star: <font color='#a90dec'><strong>Exemplo</strong></font> :star:
+### :star: <font color='#BD93F9'><strong>Exemplo</strong></font> :star:
 
 ```html
 <form>
@@ -97,9 +97,9 @@
 
 
 <details>
-  <summary><font color='turquoise'><strong>Exibir Exemplo de Código</strong></font></summary>
+  <summary><font color='#50FA7B'><strong>Exibir Exemplo de Código</strong></font></summary>
 
-### :star: <font color='#a90dec'><strong>Exemplo</strong></font> :star:
+### :star: <font color='#BD93F9'><strong>Exemplo</strong></font> :star:
 
 ```html
 <form>
@@ -126,9 +126,9 @@
 
 
 <details>
-  <summary><font color='turquoise'><strong>Exibir Exemplo de Código</strong></font></summary>
+  <summary><font color='#50FA7B'><strong>Exibir Exemplo de Código</strong></font></summary>
 
-### :star: <font color='#a90dec'><strong>Exemplo</strong></font> :star:
+### :star: <font color='#BD93F9'><strong>Exemplo</strong></font> :star:
 
 Se você quiser que a senha tenha pelo menos uma letra maiúscula, uma letra minúscula, um número e um caractere especial, você pode usar o seguinte padrão:
 
@@ -165,9 +165,9 @@ O atributo `title` fornece uma mensagem de erro personalizada para o usuário ca
 
 
 <details>
-  <summary><font color='turquoise'><strong>Exibir Exemplo de Código</strong></font></summary>
+  <summary><font color='#50FA7B'><strong>Exibir Exemplo de Código</strong></font></summary>
 
-### :star: <font color='#a90dec'><strong>Exemplo</strong></font> :star:
+### :star: <font color='#BD93F9'><strong>Exemplo</strong></font> :star:
 
 ```html
 <form>
@@ -195,9 +195,9 @@ Ao atribuir `name="account-type"` aos dois inputs de rádio, o formulário agora
 
 
 <details>
-  <summary><font color='turquoise'><strong>Exibir Exemplo de Código</strong></font></summary>
+  <summary><font color='#50FA7B'><strong>Exibir Exemplo de Código</strong></font></summary>
 
-### :star: <font color='#a90dec'><strong>Exemplo</strong></font> :star:
+### :star: <font color='#BD93F9'><strong>Exemplo</strong></font> :star:
 
 ```html
 <form>
@@ -225,9 +225,9 @@ Ao atribuir `name="account-type"` aos dois inputs de rádio, o formulário agora
 
 
 <details>
-  <summary><font color='turquoise'><strong>Exibir Exemplo de Código</strong></font></summary>
+  <summary><font color='#50FA7B'><strong>Exibir Exemplo de Código</strong></font></summary>
 
-### :star: <font color='#a90dec'><strong>Exemplo</strong></font> :star:
+### :star: <font color='#BD93F9'><strong>Exemplo</strong></font> :star:
 
 ```html
 <form>
@@ -252,9 +252,9 @@ Ao atribuir `name="account-type"` aos dois inputs de rádio, o formulário agora
 
 
 <details>
-  <summary><font color='turquoise'><strong>Exibir Exemplo de Código</strong></font></summary>
+  <summary><font color='#50FA7B'><strong>Exibir Exemplo de Código</strong></font></summary>
 
-### :star: <font color='#a90dec'><strong>Exemplo</strong></font> :star:
+### :star: <font color='#BD93F9'><strong>Exemplo</strong></font> :star:
 
 ```html
 <form>
@@ -279,9 +279,9 @@ Ao atribuir `name="account-type"` aos dois inputs de rádio, o formulário agora
 
 
 <details>
-  <summary><font color='turquoise'><strong>Exibir Exemplo de Código</strong></font></summary>
+  <summary><font color='#50FA7B'><strong>Exibir Exemplo de Código</strong></font></summary>
 
-### :star: <font color='#a90dec'><strong>Exemplo</strong></font> :star:
+### :star: <font color='#BD93F9'><strong>Exemplo</strong></font> :star:
 
 ```html
 <form>
@@ -306,9 +306,9 @@ Ao atribuir `name="account-type"` aos dois inputs de rádio, o formulário agora
 
 
 <details>
-  <summary><font color='turquoise'><strong>Exibir Exemplo de Código</strong></font></summary>
-
-### :star: <font color='#a90dec'><strong>Exemplo</strong></font> :star:
+  <summary><font color='#50FA7B'><strong>Exibir Exemplo de Código</strong></font></summary>
+  
+### :star: <font color='#BD93F9'><strong>Exemplo</strong></font> :star:
 
 ```html
 <form>
@@ -328,5 +328,145 @@ Ao atribuir `name="account-type"` aos dois inputs de rádio, o formulário agora
 - **Elemento `<select>`**: O `<select>` cria o menu suspenso.
 - **Elementos `<option>`**: Cada `<option>` define uma escolha dentro do menu suspenso, com o valor correspondente atribuído ao atributo `value`.
 - **Rótulo para o campo de seleção**: "Selecione o cargo" foi adicionado como rótulo para o dropdown.
+
+</details>
+
+<br>
+
+:ballot_box_with_check: Cada opção dentro do elemento `<select>` precisa ter um atributo `value` para garantir que um valor significativo seja enviado ao servidor. Se o atributo `value` não for especificado, o próprio texto visível da opção será enviado.
+
+<details>
+  <summary><font color='#50FA7B'><strong>Exibir Exemplo de Código</strong></font></summary>
+
+### :star: <font color='#BD93F9'><strong>Exemplo</strong></font> :star:
+
+```html
+<form>
+  <fieldset>
+    <label for="user-role">Selecione o cargo:</label>
+    <select id="user-role" name="user-role" required>
+      <option value="">Selecione uma opção</option>
+      <option value="admin">Administrador</option>
+      <option value="editor">Editor</option>
+      <option value="viewer">Visualizador</option>
+    </select>
+  </fieldset>
+
+  <input type="submit" value="Enviar">
+</form>
+```
+
+1. **Atributo `value`**: Cada `<option>` agora tem um atributo `value` correspondente.
+2. **Opção padrão vazia**: A primeira opção (`value=""`) serve como um placeholder, garantindo que o usuário selecione uma opção válida antes de enviar o formulário. Como o campo é obrigatório (`required`), o formulário não será enviado se essa opção permanecer selecionada.
+
+</details>
+
+<br>
+
+:ballot_box_with_check: Para permitir que os usuários registrem uma biografia, podemos adicionar um elemento `<textarea>` ao formulário. Diferente de um `<input type="text">`, o `<textarea>` permite a inserção de múltiplas linhas de texto, tornando-o ideal para capturar descrições mais longas.
+
+<details>
+  <summary><font color='#50FA7B'><strong>Exibir Exemplo de Código</strong></font></summary>
+
+### :star: <font color='#BD93F9'><strong>Exemplo</strong></font> :star:
+
+
+```html
+<form>
+
+  <fieldset>
+    <label for="bio">Biografia:</label>
+    <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Escreva uma breve biografia..."></textarea>
+  </fieldset>
+
+  <input type="submit" value="Enviar">
+</form>
+```
+
+1. **Elemento `<textarea>`**: Permite a entrada de várias linhas de texto.
+2. **Atributo `rows` e `cols`**: Define o tamanho inicial da área de texto.
+3. **Atributo `placeholder`**: Fornece um exemplo de entrada para orientar os usuários.
+
+</details>
+
+<br>
+
+:ballot_box_with_check: Cada elemento submit em um formulário deve ter um atributo `name`, pois esse atributo identifica o campo quando os dados são enviados para o servidor. Como os inputs de rádio já possuem um nome em comum (`account-type`), adicionaremos nomes únicos aos demais elementos.
+
+<details>
+  <summary><font color='#50FA7B'><strong>Exibir Exemplo de Código</strong></font></summary>
+
+### :star: <font color='#BD93F9'><strong>Exemplo</strong></font> :star:
+
+```html
+<form>
+  <fieldset>
+    <legend>Informações Pessoais</legend>
+    
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="full-name" required>
+
+    <label for="surname">Sobrenome:</label>
+    <input type="text" id="surname" name="last-name" required>
+
+    <label for="age">Digite sua idade (anos):</label>
+    <input type="number" id="age" name="user-age" min="13" max="120" required>
+  </fieldset>
+
+  <fieldset>
+    <legend>Escolha o Tipo de Conta (obrigatório)</legend>
+    
+    <label for="personal">Pessoal</label>
+    <input type="radio" id="personal" name="account-type" value="personal" checked>
+
+    <label for="business">Negócios</label>
+    <input type="radio" id="business" name="account-type" value="business">
+  </fieldset>
+
+  <fieldset>
+    <label for="terms-and-conditions">
+      <input type="checkbox" id="terms-and-conditions" name="terms-agreement" required>
+      Eu li e concordo com os Termos e Condições
+    </label>
+  </fieldset>
+
+  <fieldset>
+    <label for="profile-picture">Upload de uma foto de perfil:</label>
+    <input type="file" id="profile-picture" name="profile-image">
+  </fieldset>
+
+  <fieldset>
+    <label for="user-role">Selecione o cargo:</label>
+    <select id="user-role" name="user-role" required>
+      <option value="">Selecione uma opção</option>
+      <option value="admin">Administrador</option>
+      <option value="editor">Editor</option>
+      <option value="viewer">Visualizador</option>
+    </select>
+  </fieldset>
+
+  <fieldset>
+    <label for="bio">Biografia:</label>
+    <textarea id="bio" name="user-bio" rows="4" cols="50" placeholder="Escreva uma breve biografia..."></textarea>
+  </fieldset>
+
+  <input type="submit" value="Enviar" name="submit-button">
+</form>
+```
+
+
+1. **Atributo `name` adicionado a todos os campos submittables**:
+   - `name="full-name"` → Nome do usuário
+   - `name="last-name"` → Sobrenome do usuário
+   - `name="user-age"` → Idade do usuário
+   - `name="terms-agreement"` → Confirmação de aceite dos termos
+   - `name="profile-image"` → Upload de foto de perfil
+   - `name="user-role"` → Seleção do cargo
+   - `name="user-bio"` → Biografia do usuário
+   - `name="submit-button"` → Botão de envio
+   
+2. **Os inputs de rádio continuam com o mesmo `name="account-type"`**, pois fazem parte do mesmo grupo.
+
+Agora, o formulário está corretamente estruturado para que os dados enviados sejam bem identificados no servidor! 🚀
 
 </details>
