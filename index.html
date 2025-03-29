@@ -7,8 +7,25 @@
     <title>Registration Form</title>
 </head>
 <body>
-    <h1>Registration Form</h1>
+    <h1>Formulário de Registro</h1>
     
-    <p>Please fill out this form with the required information.</p>
+    <p>Por favor, preencha este formulário com as informações obrigatórias.</p>
+    
+    <form action="https://register-demo.freecodecamp.org" method="post">
+    
+    <fieldset>
+        <label for="nome">Nome: <input id="nome" type="text" required></label>
+        
+        <label for="sobrenome">Sobrenome: <input id="sobrenome" type="text" required></label>
+        
+        <label for="email">E-mail: <input type="email" name="email" id="email" required></label>
+        
+        <label for="nova-senha">Crie uma Nova Senha: <input type="password" name="nova-senha" id="nova-senha" required></label>
+    </fieldset>
+    <fieldset></fieldset>
+    <fieldset></fieldset>
+    <input type="submit" value="Enviar">
+    </form>
+    
 </body>
 </html>
