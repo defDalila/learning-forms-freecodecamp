@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,16 +14,35 @@
     <form action="https://register-demo.freecodecamp.org" method="post">
     
     <fieldset>
+      <legend>Informações pessoais</legend>
         <label for="nome">Nome: <input id="nome" type="text" required></label>
         
         <label for="sobrenome">Sobrenome: <input id="sobrenome" type="text" required></label>
         
         <label for="email">E-mail: <input type="email" name="email" id="email" required></label>
         
-        <label for="nova-senha">Crie uma Nova Senha: <input type="password" name="nova-senha" id="nova-senha" required></label>
+        <label for="nova-senha">Crie uma Nova Senha: <input type="password" name="nova-senha" id="nova-senha" required minlength="8"
+            pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}"/></label>
     </fieldset>
-    <fieldset></fieldset>
-    <fieldset></fieldset>
+    
+    <fieldset>
+      <legend>Escolha o Tipo de Conta (obrigatório)</legend>
+      <label for="personal-account"><input checked type="radio" id="personal-account" name="account-type"> Personal</label>
+      <label for="business-account"><input type="radio" id="business-account" name="account-type"> Business</label>
+    </fieldset>
+    
+    <fieldset>
+      <label for="profile-picture">Insira uma imagem de perfil: <input type="file" id="profile-picture"/></label>
+      <label for="idade">Idade (anos): <input type="number" id="idade" name="idade" min="13" max="120"></label>
+    </fieldset>
+    
+
+      <label for="terms-and-conditions">
+        <input type="checkbox" id="terms-and-conditions" name="terms-and-conditions" required>
+          Eu li e concordo com os <a href="https://www.freecodecamp.org/news/terms-of-service/">termos e condições</a>
+      </label>
+
+    
     <input type="submit" value="Enviar">
     </form>
     
